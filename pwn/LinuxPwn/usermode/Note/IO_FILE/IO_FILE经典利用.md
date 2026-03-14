@@ -165,7 +165,7 @@ void _IO_wdoallocbuf (FILE *fp)
 #define _IO_WDOALLOCATE(FP) WJUMP0 (__doallocate, FP)
 #define WJUMP0(FUNC, THIS) (_IO_WIDE_JUMPS_FUNC(THIS)->FUNC) (THIS)
 #define _IO_WIDE_JUMPS_FUNC(THIS) _IO_WIDE_JUMPS(THIS)
-而在调用_IO_FILE的vtable的函数时，进行了检查
+// 而在调用_IO_FILE的vtable的函数时，进行了检查
 # define _IO_JUMPS_FUNC(THIS)  (IO_validate_vtable (*(struct _IO_jump_t **) ((void *) &_IO_JUMPS_FILE_plus (THIS) + (THIS)->_vtable_offset)))
 ```
 

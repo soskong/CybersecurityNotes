@@ -147,7 +147,7 @@
 
 #### 更新文章
 
-在G:\Hexo\blog\source\_posts创建md文件，在文件起始添加
+在G:\Hexo\blog\source\\_posts创建md文件，在文件起始添加
 
 ```
 ---

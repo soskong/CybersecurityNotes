@@ -154,7 +154,7 @@ git push [your_project] master
    3. 将本地仓库内容推送到远程仓库的master分支
    git push https://D31imiter@github.com/D31imiter/d31imiter.github.io.git master
    ```
-3. 更新后的同步0
+3. 更新后的同步
 
    ```
    git add .

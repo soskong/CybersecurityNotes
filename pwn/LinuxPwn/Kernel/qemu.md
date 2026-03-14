@@ -68,14 +68,14 @@ nopti			关闭 KPTI
 
 -s			表示 -gdb tcp::1234，即在 1234 端口开启一个 gdbserver
 
-
+-M malta 		指定要模拟的硬件平台 / 机器类型，指定MIPS 架构的 Malta 开发板硬件环境
+-hda debian_squeeze_mips_standard.qcow2	 指定硬盘，debian_squeeze_mips_standard.qcow2 是一个QEMU 专用的 MIPS 架构 Debian 系统磁盘镜像文件
 
 
 
 
 
 ```
-
 
 对于从哪里挂载根文件系统
 

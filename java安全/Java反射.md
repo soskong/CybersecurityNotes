@@ -1,3 +1,8 @@
+#### 原理
+
+Java是一个依赖于 `JVM`（Java虚拟机）实现的跨平台的开发语言。Java程序在运行前需要先编译成 `class文件`，Java类初始化的时候会调用 `java.lang.ClassLoader`加载类字节码，`ClassLoader`会调用JVM的native方法（`defineClass0/1/2`）来定义一个 `java.lang.Class`实例
+
+
 #### 获取原始类
 
 `Class.forName("完整类名带包名")`

@@ -102,8 +102,8 @@ http://mirrors.cloud.tencent.com/pypi/simple
 1. windows配置终端代理
 
    ```
-   set http_proxy=http://127.0.0.1:7890
-   set https_proxy=http://127.0.0.1:7890
+   set http_proxy=http://127.0.0.1:7897
+   set https_proxy=http://127.0.0.1:7897
 
    ```
 2. linux配置代理：编写以下shell脚本后用source执行
